@@ -1,11 +1,10 @@
 source 'https://rubygems.org'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
-
+gem "paperclip"
 # Rails 4.2: respond_with / respond_to
 gem 'responders', '~> 2.0'
-
+gem 'paperclip'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.1'
 
@@ -89,14 +88,8 @@ end
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
-# Use debugger
-# gem 'debugger', group: [:development, :test]
 
-# Debugging
-gem 'debase', '~> 0.1.1'
-gem 'ruby-debug-ide', '~> 0.4.24'
 #gem 'coffee-script-redux-debugger', :git => 'git://github.com/JetBrains/coffee-script-redux-debugger.git'
 
 gem 'angularjs-rails-resource', '~> 1.2.1'
 
-ruby '2.2.0'
